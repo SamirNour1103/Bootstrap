@@ -17,9 +17,36 @@
 .col{
     margin-top: 30px;
     border: 2px solid black;
-    padding: 30px;
 }
 
 .meusobre{
+    margin-top: 20px;
     text-align: center;
+}
+
+.meuimg{
+    border-radius: 15px;
+}
+
+.alinhar{
+    display: flex;
+    align-items: center
+}
+
+.fixed{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+}
+
+#sobre{
+    scroll-margin-top: 190px;
+}
+
+.alinhar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
