@@ -10,9 +10,6 @@
     font-size: 1.5rem;
 }
 
-.meufooter{
-    margin-top: 250px;
-}
 
 .col1{
     margin-top: 30px;
@@ -70,3 +67,23 @@
   .justificar{
     text-align: justify;
   }
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 675px) {
+    header .meucontainer, .sobre-container {
+        flex-direction: column;
+        text-align: center;
+    }
+        .carrosel {
+        margin-top: 160px;
+    }
+}
